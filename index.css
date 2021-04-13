@@ -1,0 +1,16 @@
+#main {
+  background-color: hsl(239, 57%, 33%);
+  color: magenta;
+  margin: 0;
+  padding: 25px 29px;
+}
+
+.title {
+  font-family: Orelega One;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.img-div {
+  text-align: center;
+}
