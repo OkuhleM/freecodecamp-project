@@ -1,16 +1,46 @@
-#main {
-  background-color: hsl(239, 57%, 33%);
-  color: magenta;
-  margin: 0;
-  padding: 25px 29px;
+.navbar {
+  background-color: silver;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 1rem;
+  margin: auto;
+  font-family: serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
-.title {
-  font-family: Orelega One;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
   text-align: center;
-  font-size: 1.9rem;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.img-div {
-  text-align: center;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  background-image: url('https://patch.com/img/cdn20/shutterstock/790386/20190705/112022/styles/patch_image/public/shutterstock-1124147978___05111638416.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  background-color: white;
+  margin: 7rem;
 }
